@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Programming Foundations HOP1</title>
+        <script
+			  src="https://code.jquery.com/jquery-3.3.1.js"
+			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+              crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="inputGrade">
+            <label for"grade">Grade:</label>
+            <input id="grade" name="grade" type="number" min="0" max="100" placeholder="80, 70, etc..." onchange="handleChange(this)">
+            <button id="inputGen">Click to add another grade</button>
+            <button onclick="numToLetter()">Submit</button>
+            <button id="resetPage">Click to reset.</button>
+        </div>
+        <div id="outputContainer">
+            <div id="output">
+                <p id="gradeOutput"></p>
+            </div>
+        </div>
+        <script src="script.js" type="text/JavaScript"></script>
+    </body>
+</html>

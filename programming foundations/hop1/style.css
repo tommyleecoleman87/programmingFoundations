@@ -1,0 +1,9 @@
+#inputGrade {
+    display: block;
+}
+
+input {
+    width: 100px;
+    background:lightblue;
+    color: black;
+}
